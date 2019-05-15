@@ -1,0 +1,193 @@
+html,body {
+	margin: 0;
+	background-image: url("./grafika/grass.jpg");
+}
+
+.Glava {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	height: 120px;
+	width: 70%;
+	background-color: #00cc00;
+}
+
+.Logo {
+	
+	height: 90px;
+	padding: 15px;
+}
+
+.GlavniOkvir {
+	margin: 0 auto;
+}
+
+.Navigacija {
+	margin: 0 auto;
+	height: 50px;
+	width: 70%;
+	background-color: #d9b3ff;
+	padding: 15px;
+	display:	flex;
+	justify-content: space-between;
+}
+
+.NavigacijaTabs {
+	height: 60px;
+	margin-top: -10px;
+	text-decoration: none;
+	color: black;
+}
+
+.NavigacijaTabs:hover {
+	transition: 0.5s;
+	box-sizing: border-box;
+	box-shadow: inset 0px 0px 0px 5px #6caddf;
+	cursor: pointer;
+
+}
+
+.NavSocialMediaParent {
+	display: inline-flex;
+	justify-content: flex-end;
+	width: 35%;
+}
+
+.NavigacijaSocialMedia {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.SocialMedia {
+	padding: 5px;
+}
+
+.SocialMedia:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+	cursor: pointer;
+
+}
+
+.Vsebina {
+	margin: 0 auto;
+	min-height: 0;
+	background-color: #00cc00;
+	width: 70%;
+}
+
+.flex {
+	display: flex;
+}
+
+.Slika1 {
+	max-height: 300px;
+	margin-top: 50px;
+	border: 3px solid white;
+	margin-right: 50px;
+}
+
+.Naslovnica {
+	width: 100%;
+}
+
+p {
+	font-size: 25px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: -20px;
+}
+
+h2 {
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 30px;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 30px;
+	margin: 0;
+}
+
+.Noga {
+	height: 50px;
+	width: 70%;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: -25px; 
+}
+
+.NogaSocialMediaParent {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.NogaSocialMedia {
+	
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.Navigacija {
+	font-family: 'Montserrat', sans-serif;	
+}
+
+li {
+	display: inline-flex;
+	text-align: center;
+	width: 120%;
+	line-height: 60px;
+}
+
+#list {
+	position: absolute;
+	text-align: center;
+	width: 600px;
+	display: flex;
+}
+
+.Tabela {
+	margin: 0 auto;
+	padding: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+tr {
+	background-color: white;	
+}
+
+td {
+	padding: 10px 60px 10px 10px;
+}
+
+th {
+	padding: 10px 60px 10px 10px;
+}
+
+.VsebinaYoutube {
+	min-height: 1490px;
+}
+
+.Video {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+
+.Subscribe {
+	height: 100px;
+	padding: 30px;
+}
+br{
+	font-size: 35px;
+	color: black;
+}
